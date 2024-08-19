@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passx- Your Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            PassX
+        </div>
+        <ul>
+            <li><a href="https://github.com/KarthikVarma19" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/karthikvarmaganaraju/" target="_blank">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <h2>Your Passwords</span><img src="images/hidden.png" id="eyeSymbol"/>
+            <span id="copiedStatus">
+                
+            </h2>
+        
+        <table id="table">
+            <tr>
+                <th>Time Stamp </th>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Encrypted Password</th>
+                <th>Delete</th>
+            </tr>
+            
+        </table>
+        <h2>Add a Password</h2>
+        
+        <div class="inputContainer">
+        <label for="website"> Website:</label>
+        <input id="website" type="text" placeholder=" Enter WebsiteName"> 
+        </input>
+        </div>
+
+        <div class="inputContainer">
+        <label for="username">Username:</label>
+        <input id="username" type="text" placeholder=" Enter Username"> 
+        </input>
+        </div>
+
+        <div class="inputContainer">
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder=" Enter Password"> 
+        </input>
+        </div>
+
+        <div>
+        <input type="checkbox" id="encryptionInput" class="encryption-input"></input>
+        <label for="encryptionInput">Do You Want To  Encrypt Your Password </label>
+        </div>
+        <div>        
+            <button type="submit" id="submitBtn">Submit</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

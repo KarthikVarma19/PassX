@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 10px;
+  color: #ffffff;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+}
+.logo:hover {
+  color: #ffffff;
+}
+ul {
+  display: flex;
+  margin: 0px 23px;
+}
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+  margin: 0 10px;
+}
+ul li:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+table,
+td,
+tr,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 1px 10px;
+}
+td {
+  font-size: 15px;
+}
+.container {
+  max-width: 80vw;
+  margin: 23px auto;
+}
+.inputContainer {
+  padding: 10px 0px;
+}
+h1,
+h2,
+h3 {
+  margin: 20 0px;
+}
+button {
+  padding: 9px 17px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+.btn-delete {
+  padding: 9px 17px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 10px;
+}
+.btn-delete:hover {
+  background-color: red;
+}
+button:hover {
+  background-color: green;
+}
+.encryption-input {
+  background-color: black;
+  color: black;
+  height: 10px;
+}
+img {
+  cursor: pointer;
+  position: relative;
+  bottom: 8px;
+}
+
+.copied-status{
+    font-size: 15px;
+    font-weight: 400;
+}
